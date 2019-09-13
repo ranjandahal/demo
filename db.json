@@ -10,5 +10,7 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "greeting": {"Title":"Welcome @user to @channel"},
+  
 }

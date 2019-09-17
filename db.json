@@ -1,66 +1,68 @@
 {
-  "attachment": [
-    {
-      "type": "section",
-      "text": {
-        "type": "mrkdwn",
-        "text": "Hi @user :wave:"
-      }
-    },
-    {
-      "type": "section",
-      "text": {
-        "type": "mrkdwn",
-        "text": "Great to see you here! App helps you to stay up-to-date with Database Tech offerings and will help you get the latest infomation. Please select options you would like to know about"
-      }
-    },
-    {
-      "type": "section",
-      "text": {
-        "type": "mrkdwn",
-        "text": "• Schedule meetings \n • Manage and update attendees \n • Get notified about changes of your meetings"
-      }
-    },
-    {
-      "type": "section",
-      "text": {
-        "type": "mrkdwn",
-        "text": "But before you can do all these amazing things, we need you to connect your calendar to App. Simply click the button below:"
-      }
-    },
-    {
-      "type": "actions",
-      "elements": [
-        {
-          "type": "button",
-          "text": {
-            "type": "plain_text",
-            "text": "Review Board",
-            "emoji": true
-          },
-          "value": "click_rb_info"
-        },
-        {
-          "type": "button",
-          "text": {
-            "type": "plain_text",
-            "emoji": true,
-            "text": "Code Deployment"
-          },
-          "style": "danger",
-          "value": "click_code_deployment"
-        },
-        {
-          "type": "button",
-          "text": {
-            "type": "plain_text",
-            "emoji": true,
-            "text": "Security & Access Request"
-          },
-          "style": "danger",
-          "value": "click_sec_access"
+  "dbtech-bot": [
+    "attachments":[
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "Hi @user :wave:"
         }
-      ]
-    }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "Great to see you here! App helps you to stay up-to-date with Database Tech offerings and will help you get the latest infomation. Please select options you would like to know about"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "• Schedule meetings \n • Manage and update attendees \n • Get notified about changes of your meetings"
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "But before you can do all these amazing things, we need you to connect your calendar to App. Simply click the button below:"
+        }
+      },
+      {
+        "type": "actions",
+        "elements": [
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "text": "Review Board",
+              "emoji": true
+            },
+            "value": "click_rb_info"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "emoji": true,
+              "text": "Code Deployment"
+            },
+            "style": "danger",
+            "value": "click_code_deployment"
+          },
+          {
+            "type": "button",
+            "text": {
+              "type": "plain_text",
+              "emoji": true,
+              "text": "Security & Access Request"
+            },
+            "style": "danger",
+            "value": "click_sec_access"
+          }
+        ]
+      }
+    ]
   ]
 }
